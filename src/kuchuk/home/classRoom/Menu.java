@@ -1,4 +1,4 @@
-package kuchuk.home.third;
+package kuchuk.home.classRoom;
 
 import java.util.LinkedList;
 import java.util.NoSuchElementException;

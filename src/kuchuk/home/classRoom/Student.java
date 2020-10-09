@@ -1,4 +1,4 @@
-package kuchuk.home.third;
+package kuchuk.home.classRoom;
 
 public class Student {
     private final String firstName;

@@ -1,4 +1,4 @@
-package kuchuk.home.third;
+package kuchuk.home.classRoom;
 
 enum menuCondition {
     GLOBAL,
