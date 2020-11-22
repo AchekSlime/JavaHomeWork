@@ -1,4 +1,4 @@
-package kuchuk.home.list;
+package kuchuk.home.list.arrayList;
 
 import kuchuk.home.list.arrayList.ArrayList;
 import kuchuk.home.list.linkedList.LinkedList;
