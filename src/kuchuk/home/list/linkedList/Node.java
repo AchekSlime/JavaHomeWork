@@ -1,4 +1,4 @@
-package kuchuk.home.linkedList;
+package kuchuk.home.list.linkedList;
 
 public class Node<T> {
     private final T value;

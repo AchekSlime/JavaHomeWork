@@ -1,4 +1,4 @@
-package kuchuk.home.linkedList;
+package kuchuk.home.list;
 
 public interface MyLists<T> {
 
@@ -34,4 +34,8 @@ public interface MyLists<T> {
      * @return the number of elements in this list
      */
     int size();
+
+    void clear();
+
+    boolean contains(Object index);
 }

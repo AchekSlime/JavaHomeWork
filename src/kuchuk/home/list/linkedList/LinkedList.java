@@ -1,4 +1,7 @@
-package kuchuk.home.linkedList;
+package kuchuk.home.list.linkedList;
+
+import jdk.jshell.spi.ExecutionControl;
+import kuchuk.home.list.MyLists;
 
 /**
  * LinkedList is a doubly linked list
@@ -146,4 +149,15 @@ public class LinkedList<T> implements MyLists<T> {
     public int size() {
         return size;
     }
+
+    @Override
+    public void clear() {
+    }
+
+    @Override
+    public boolean contains(Object index) {
+        return false;
+    }
+
+
 }
