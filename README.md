@@ -6,8 +6,8 @@ src.kuchuk.home.list.arrayList
 
 ### ArrayList
 Для того чтобы протестировать класс ArrayList запустите Main.java
-в пакете src.kuchuk.home.list.arrayList
+в пакете [src.kuchuk.home.list.arrayList]
 
 ### LinkedList
 Для того чтобы протестировать класс lLinkedList запустите Main.java 
-в пакете src.kuchuk.home.list.linkedList
+в пакете [src.kuchuk.home.list.linkedList]
