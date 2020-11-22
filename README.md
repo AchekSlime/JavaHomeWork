@@ -1,6 +1,7 @@
 
-## Последняя работа - ArrayList
-src.kuchuk.home.list.arrayList
+## Для Кучука: последняя работа - ArrayList
+Лежит в пакете [src.kuchuk.home.list.arrayList]
+P.S. Код ревью еще не сделал
 
 ## Запуск проектов
 
