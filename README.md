@@ -11,3 +11,5 @@ src.kuchuk.home.list.arrayList
 ### LinkedList
 Для того чтобы протестировать класс lLinkedList запустите Main.java 
 (src.kuchuk.home.list.linkedList.Main)
+
+lol
