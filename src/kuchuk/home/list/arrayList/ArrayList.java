@@ -8,7 +8,7 @@ public class ArrayList<T> implements MyLists<T> {
     private static final int DEFAULT_ARRAY_CAPACITY = 10;
     private static final int MAX_ARRAY_SIZE = Integer.MAX_VALUE - 8;
     private static final Object[] DEFAULT_CAPACITY_EMPTY_ELEMENTS = {};
-
+    //FIX: почему оно не private?
     Object[] elements;
     int size;
 
@@ -35,6 +35,7 @@ public class ArrayList<T> implements MyLists<T> {
      *
      * @throws OutOfMemoryError if minCapacity is less than zero
      */
+    // FIXME:каждый раз при добавлении элемента придется писать try catch. Так не надо.
     private Object[] increaseCapacity() throws OutOfMemoryError {
         int minCapacity = size + 1;
         return elements = Arrays.copyOf(elements,
@@ -168,6 +169,7 @@ public class ArrayList<T> implements MyLists<T> {
      * Returns the index of the first occurrence of the specified element
      * in this list, or -1 if this list does not contain the element.
      */
+    //FIX: Почему он не private?
     int tryFind(Object o, int start, int end) {
         if (o == null) {
             for (int i = start; i < end; i++) {
