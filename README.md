@@ -1,8 +1,4 @@
-
-## Для Кучука: последняя работа - ArrayList
-Лежит в пакете [src.kuchuk.home.list.arrayList]
-
-P.S. Код ревью еще не сделал
+# Реализация LinkedList и ArrayList на Java
 
 ## Запуск проектов
 
